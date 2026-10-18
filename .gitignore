@@ -1,0 +1,26 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment secrets and credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local vector database storage and uploaded files
+data/chroma_db/
+data/uploaded/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
